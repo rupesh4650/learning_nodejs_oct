@@ -6,7 +6,7 @@ app.set("view engine","ejs")
 //'/' halda home page dekhaune
 app.get('/',(req,res) =>{
     //views vitra ko file render garxa
-    res.render("home")
+    res.render("home",{name:"Manish"})
 })
 
 // '/about' halda about page dekhaune
